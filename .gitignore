@@ -54,7 +54,6 @@ api_key.json
 !output/*.csv
 !output/*.txt
 !output/*.toon
-!output/.gitkeep
 
 # --- AI Agent Context Files ---
 CLAUDE.md
