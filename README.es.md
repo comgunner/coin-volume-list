@@ -421,7 +421,7 @@ Este proyecto está licenciado bajo la **Licencia de Atribución** - ver el arch
 ## 📞 Soporte
 
 - **GitHub:** [@comgunner](https://github.com/comgunner)
-- **Repositorio:** https://github.com/comgunner/GIT_CLONE
+- **Repositorio:** https://github.com/comgunner/coin-volume-list
 
 ---
 

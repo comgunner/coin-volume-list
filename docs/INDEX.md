@@ -65,8 +65,8 @@ docs/
 
 ## 📞 Support
 
-- **GitHub Issues:** [Create an issue](https://github.com/comgunner/GIT_CLONE/issues)
-- **Discussions:** [GitHub Discussions](https://github.com/comgunner/GIT_CLONE/discussions)
+- **GitHub Issues:** [Create an issue](https://github.com/comgunner/coin-volume-list/issues)
+- **Discussions:** [GitHub Discussions](https://github.com/comgunner/coin-volume-list/discussions)
 - **Author:** @comgunner
 
 ---
