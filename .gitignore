@@ -49,7 +49,11 @@ auth.json
 api_key.json
 
 # --- Generated Data ---
-output/*.json
+# Keep example output files for reference (*.json, *.csv, *.txt, *.toon)
+!output/*.json
+!output/*.csv
+!output/*.txt
+!output/*.toon
 !output/.gitkeep
 
 # --- AI Agent Context Files ---
