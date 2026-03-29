@@ -1,0 +1,86 @@
+# ===========================================
+# .gitignore - Volume Sorted Coin List
+# ===========================================
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+*.manifest
+*.spec
+
+# --- Virtual Environments ---
+.venv/
+venv/
+ENV/
+env/
+pyvenv.cfg
+
+# --- IDE / Editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# --- OS Files ---
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+desktop.ini
+
+# --- Environment & Secrets ---
+.env
+.env.*
+!.env.example
+*.log
+secrets.py
+auth.json
+api_key.json
+
+# --- Generated Data ---
+output/*.json
+!output/.gitkeep
+
+# --- AI Agent Context Files ---
+CLAUDE.md
+GEMINI.md
+QWEN.md
+REFACTORING.md
+CONTRIBUTING.md
+.claude/
+.agent/
+.qwen/
+.gemini/
+
+# --- Testing & Coverage ---
+htmlcov/
+.tox/
+.pytest_cache/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+nosetests.xml
+pytestdebug.log
+
+# --- Jupyter ---
+.ipynb_checkpoints
+
+# --- Local Development ---
+local_work/
+
+# --- Pre-commit ---
+.secrets.baseline
+.pre-commit-cache/

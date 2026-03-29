@@ -1,0 +1,121 @@
+# Attribution License
+
+**Copyright (c) 2026 @comgunner**
+
+---
+
+## Permissions
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to:
+
+- ✅ **Use** - Use the Software for any purpose, including commercial purposes
+- ✅ **Modify** - Modify, adapt, and improve the Software
+- ✅ **Distribute** - Copy and distribute the Software
+- ✅ **Sublicense** - Include the Software in larger works
+
+---
+
+## Conditions
+
+The above permissions are granted **subject to the following conditions**:
+
+### 1. Attribution Required
+
+Any person who uses, modifies, distributes, or incorporates this Software must give appropriate credit to the original author by:
+
+a) Including the following attribution notice in all copies or substantial portions of the Software:
+
+```
+This software was created by @comgunner.
+Original repository: https://github.com/comgunner
+```
+
+b) Including a copy of this license with any distribution of the Software.
+
+c) Clearly indicating in any modified version that changes were made, while still maintaining attribution to the original author.
+
+### 2. No Endorsement
+
+The name of the author (@comgunner) may not be used to endorse or promote products derived from this Software without specific prior written permission.
+
+### 3. Notice in Documentation
+
+If the Software includes documentation or attribution files (such as README.md), those files must retain the original author attribution and may not be removed or altered to misrepresent authorship.
+
+---
+
+## Disclaimer
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+---
+
+## How to Give Attribution
+
+### For Unmodified Use
+
+If you use this Software without modification, include the following notice in your project:
+
+```markdown
+## Credits
+
+This project uses the Volume Sorted Coin List Generator by @comgunner.
+Licensed under the Attribution License.
+Repository: https://github.com/comgunner
+```
+
+### For Modified Versions
+
+If you modify this Software, include the following notice:
+
+```markdown
+## Credits
+
+This project is based on the Volume Sorted Coin List Generator by @comgunner.
+Original repository: https://github.com/comgunner
+Modified by: [Your Name/Organization]
+Licensed under the Attribution License.
+```
+
+### For Integrated Use
+
+If you integrate this Software into a larger project:
+
+```markdown
+## Third-Party Components
+
+This project includes the following third-party software:
+
+**Volume Sorted Coin List Generator**
+- Author: @comgunner
+- License: Attribution License
+- Repository: https://github.com/comgunner
+```
+
+---
+
+## License Compatibility
+
+This Attribution License is compatible with:
+
+- ✅ MIT License (with additional attribution requirement)
+- ✅ Apache License 2.0 (with additional attribution requirement)
+- ✅ BSD Licenses (with additional attribution requirement)
+- ❌ GPL Licenses (may have compatibility issues due to additional restrictions)
+
+---
+
+## Enforcement
+
+Failure to comply with the attribution conditions outlined in Section 1 will result in automatic termination of the permissions granted under this license. Upon termination, all rights to use, modify, or distribute the Software shall cease immediately.
+
+---
+
+## Questions?
+
+If you have questions about this license or need clarification on attribution requirements, please contact the author at: **@comgunner** on GitHub.
+
+---
+
+*This license is based on the MIT License with additional attribution requirements.*
+*Last Updated: March 29, 2026*
