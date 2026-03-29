@@ -418,46 +418,6 @@ This project is licensed under the **Attribution License** - see the [LICENSE](L
 
 ---
 
-## 📦 Distribution ZIP
-
-### Download Latest Release
-
-**📦 [Download v0.0.1 Release (ZIP)](https://github.com/comgunner/coin-volume-list/releases/download/v0.0.1/coin-volume-list-v0.0.1.zip)**
-
-Or visit the [Releases page](https://github.com/comgunner/coin-volume-list/releases) for all versions:
-
-```bash
-# Download v0.0.1 release
-wget https://github.com/comgunner/coin-volume-list/releases/download/v0.0.1/coin-volume-list-v0.0.1.zip
-
-# Extract
-unzip coin-volume-list-v0.0.1.zip
-cd coin-volume-list
-
-# Install dependencies
-pip install -r requirements.txt
-```
-
-### Create ZIP Manually
-
-```bash
-# Using the script (Linux/macOS)
-./scripts/create-release-zip.sh v1.0.0
-
-# Or manually
-mkdir dist
-cp volume_sorted_coin_list.py exchanges.py requirements.txt LICENSE README.md README.es.md dist/
-cd dist && zip -r ../coin-volume-list.zip ./* && cd ..
-```
-
-### GitHub Actions (Automatic)
-
-The ZIP is automatically generated on:
-- ✅ Release published
-- ✅ Manual trigger from Actions tab
-
----
-
 ## 📞 Support
 
 - **GitHub:** [@comgunner](https://github.com/comgunner)
