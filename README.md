@@ -1,8 +1,12 @@
 # 📊 Volume Sorted Coin List Generator
 
 **Author:** @comgunner  
-**Version:** 1.0.0  
+**Version:** v0.0.1  
 **License:** Attribution License (see [LICENSE](LICENSE))
+
+> **💡 What is this?** This script helps you get **active cryptocurrency coins in futures/spot markets** in a simple way. If you want to know which coins are currently active on an exchange, this tool fetches the data automatically and generates a ranked list by trading volume.
+
+**Quick Download:** [📦 Download v0.0.1 Release (ZIP)](https://github.com/comgunner/coin-volume-list/releases/download/v0.0.1/coin-volume-list-v0.0.1.zip)
 
 Cryptocurrency coin list generator that fetches active trading pairs from multiple exchanges using **CCXT** and generates sorted lists based on **24-hour trading volume**.
 
@@ -416,17 +420,22 @@ This project is licensed under the **Attribution License** - see the [LICENSE](L
 
 ## 📦 Distribution ZIP
 
-### Download Pre-built ZIP
+### Download Latest Release
 
-Download the latest release ZIP from the [Releases page](https://github.com/comgunner/GIT_CLONE/releases):
+**📦 [Download v0.0.1 Release (ZIP)](https://github.com/comgunner/coin-volume-list/releases/download/v0.0.1/coin-volume-list-v0.0.1.zip)**
+
+Or visit the [Releases page](https://github.com/comgunner/coin-volume-list/releases) for all versions:
 
 ```bash
-# Download latest release
-wget https://github.com/comgunner/GIT_CLONE/releases/latest/download/coin-volume-list-v1.0.0.zip
+# Download v0.0.1 release
+wget https://github.com/comgunner/coin-volume-list/releases/download/v0.0.1/coin-volume-list-v0.0.1.zip
 
 # Extract
-unzip coin-volume-list-v1.0.0.zip
+unzip coin-volume-list-v0.0.1.zip
 cd coin-volume-list
+
+# Install dependencies
+pip install -r requirements.txt
 ```
 
 ### Create ZIP Manually

@@ -84,3 +84,4 @@ local_work/
 # --- Pre-commit ---
 .secrets.baseline
 .pre-commit-cache/
+coin-volume-list-*.zip

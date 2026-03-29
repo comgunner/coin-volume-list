@@ -1,8 +1,12 @@
 # 📊 Generador de Lista de Coins Ordenadas por Volumen
 
 **Autor:** @comgunner  
-**Versión:** 1.0.0  
+**Versión:** v0.0.1  
 **Licencia:** Licencia de Atribución (ver [LICENSE](LICENSE))
+
+> **💡 ¿Qué es esto?** Este script te ayuda a obtener **monedas activas en mercados de futuros/spot** de manera sencilla. Si quieres saber qué monedas están activas en un exchange en un momento determinado, esta herramienta obtiene los datos automáticamente y genera una lista clasificada por volumen de trading.
+
+**Descarga Rápida:** [📦 Descargar Release v0.0.1 (ZIP)](https://github.com/comgunner/coin-volume-list/releases/download/v0.0.1/coin-volume-list-v0.0.1.zip)
 
 Generador de listas de criptomonedas que obtiene pares de trading activos de múltiples exchanges usando **CCXT** y genera listas ordenadas por **volumen de trading de 24 horas**.
 
@@ -416,17 +420,22 @@ Este proyecto está licenciado bajo la **Licencia de Atribución** - ver el arch
 
 ## 📦 ZIP de Distribución
 
-### Descargar ZIP Pre-construido
+### Descargar Última Versión
 
-Descarga el ZIP más reciente desde la [página de Releases](https://github.com/comgunner/GIT_CLONE/releases):
+**📦 [Descargar Release v0.0.1 (ZIP)](https://github.com/comgunner/coin-volume-list/releases/download/v0.0.1/coin-volume-list-v0.0.1.zip)**
+
+O visitá la [página de Releases](https://github.com/comgunner/coin-volume-list/releases) para todas las versiones:
 
 ```bash
-# Descargar última versión
-wget https://github.com/comgunner/GIT_CLONE/releases/latest/download/coin-volume-list-v1.0.0.zip
+# Descargar release v0.0.1
+wget https://github.com/comgunner/coin-volume-list/releases/download/v0.0.1/coin-volume-list-v0.0.1.zip
 
 # Extraer
-unzip coin-volume-list-v1.0.0.zip
+unzip coin-volume-list-v0.0.1.zip
 cd coin-volume-list
+
+# Instalar dependencias
+pip install -r requirements.txt
 ```
 
 ### Crear ZIP Manualmente
