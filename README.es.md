@@ -36,86 +36,68 @@ Generador de listas de criptomonedas que obtiene pares de trading activos de mú
 
 ---
 
-## 🛠️ Instalación
+## 🚀 Inicio Rápido (Recomendado - Más Rápido)
 
-### 1. Clonar o Descargar
+### Descargar Release ZIP (Windows / Linux / macOS)
 
-```bash
-cd coin-volume-list
+**📦 [Descargar Release v0.0.1 (ZIP)](https://github.com/comgunner/coin-volume-list/releases/download/v0.0.1/coin-volume-list-v0.0.1.zip)**
+
+#### Windows
+
+```powershell
+# 1. Descargar ZIP del enlace de arriba
+# 2. Extraer en C:\coin-volume-list
+# 3. Abrir PowerShell en esa carpeta
+cd C:\coin-volume-list
+
+# 4. Crear entorno virtual
+python -m venv .venv
+.\.venv\Scripts\Activate
+
+# 5. Instalar dependencias
+pip install -r requirements.txt
+
+# 6. Configurar entorno
+copy .env.example .env
+notepad .env
+
+# 7. Ejecutar
+python volume_sorted_coin_list.py
 ```
-
-### 2. Configurar Entorno Virtual
 
 #### Linux / macOS
 
 ```bash
-# Crear entorno virtual
-python3.12 -m venv .venv
+# 1. Descargar y extraer
+wget https://github.com/comgunner/coin-volume-list/releases/download/v0.0.1/coin-volume-list-v0.0.1.zip
+unzip coin-volume-list-v0.0.1.zip
+cd coin-volume-list
 
-# Activar entorno virtual
+# 2. Crear entorno virtual
+python3 -m venv .venv
 source .venv/bin/activate
 
-# Verificar versión de Python
-python -V
-
-# Actualizar pip
-python -m pip install -U pip
-```
-
-#### Windows (10/11)
-
-```powershell
-# Crear entorno virtual
-python -m venv .venv
-
-# Activar entorno virtual
-.venv\Scripts\activate
-
-# Verificar versión de Python
-python -V
-
-# Actualizar pip
-python -m pip install -U pip
-```
-
-### 3. Instalar Dependencias
-
-```bash
-# Actualizar pip y setuptools
-pip install --upgrade pip setuptools
-
-# Instalar requirements
+# 3. Instalar dependencias
 pip install -r requirements.txt
-```
 
-**Dependencias:**
-- `ccxt>=4.4.0` - Librería de exchanges de criptomonedas
-- `python-dotenv>=1.0.0` - Gestión de variables de entorno
-- `pytz>=2024.1` - Soporte de zona horaria
-
-### 4. Configurar Entorno
-
-```bash
-# Copiar configuración de ejemplo
+# 4. Configurar entorno
 cp .env.example .env
-
-# Editar con tu configuración
-# Linux/macOS: Usar nano, vim o cualquier editor
 nano .env
 
-# Windows: Usar Notepad o cualquier editor
-notepad .env
+# 5. Ejecutar
+python volume_sorted_coin_list.py
 ```
 
-**Configuración .env:**
+---
+
+## 🛠️ Alternativo: Clonar Repositorio (Opcional)
 
 ```bash
-# Selección de exchange (binance, bybit, bingx, okx, bitget)
-EXCHANGE_CCXT=binance
+# Clonar repositorio
+git clone https://github.com/comgunner/coin-volume-list.git
+cd coin-volume-list
 
-# Opcional: Credenciales de API para límites más altos
-BINANCE_API_KEY=tu_api_key
-BINANCE_API_SECRET=tu_secret
+# Continuar desde el paso 4 de arriba (Configurar Entorno Virtual)
 ```
 
 ---
